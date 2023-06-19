@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.15)
+
+
+}
+nav img{
+    width: 70px;
+    cursor: pointer;
+
+}
+.hotel ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.hotel ul li{
+    margin-left: 15px;
+    cursor: pointer;
+    color: blue;
+    font-size: 13px;
+    font-weight: 100px;
+    transition: 0.3s ease;
+}
+.hotel ul li:hover{
+    color: red;
+}
+
+/*HOME*/
+#home{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 9, 46, 0.7));url(images/white5.jpg)
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   }
+   #home h2{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+   }
+   #home p{
+   
+    width: 1300px;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    
+   }
+   #home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: beige;
+    font-weight: 600;
+    padding-top: 1px;
+    border-radius: 4px;
+   }
+   .f-1{
+    text-align: center;
+    padding-top: 20px;
+   }
+   #home a.blue{
+    font-weight: bold;
+    color: white;
+    background: rgba(21, 21, 100);
+   }
+   #home a.yellow{
+    color: brown;
+    background: yellow;
+    font-weight: bold;
+   }
+   #home a.blue:hover{
+    color: white;
+    background: yellow;
+    transition: 0.3s ease-in-out;
+   }
+   #home a.yellow:hover{
+    color: yellow;
+    background: white;
+    transition: 0.3s ease;
+   }
+   
+
+
+
+
+
+
+
